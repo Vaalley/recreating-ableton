@@ -1,5 +1,6 @@
 <script>
 	import Header from '../components/Header.svelte';
+	import HeaderText from '../components/HeaderText.svelte';
 	import Navbar from '../components/Navbar.svelte';
 	import Shortcuts from '../components/Shortcuts.svelte';
 </script>
@@ -13,6 +14,7 @@
 		<Navbar />
 		<Shortcuts />
 		<Header />
+		<HeaderText />
 	</div>
 </template>
 
