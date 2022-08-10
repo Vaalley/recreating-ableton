@@ -3,6 +3,7 @@
 	import HeaderText from '../components/HeaderText.svelte';
 	import Navbar from '../components/Navbar.svelte';
 	import Shortcuts from '../components/Shortcuts.svelte';
+	import HeaderImages from '../components/HeaderImages.svelte';
 </script>
 
 <svelte:head>
@@ -15,6 +16,7 @@
 		<Shortcuts />
 		<Header />
 		<HeaderText />
+		<HeaderImages />
 	</div>
 </template>
 
