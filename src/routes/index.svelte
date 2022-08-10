@@ -1,4 +1,5 @@
 <script>
+	import Header from '../components/Header.svelte';
 	import Navbar from '../components/Navbar.svelte';
 	import Shortcuts from '../components/Shortcuts.svelte';
 </script>
@@ -11,6 +12,7 @@
 	<div class="ableton max-w-[1600px] ml-auto mr-auto">
 		<Navbar />
 		<Shortcuts />
+		<Header />
 	</div>
 </template>
 

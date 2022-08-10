@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
@@ -22,5 +24,14 @@ module.exports = {
       lato: ['Lato', 'sans-serif'],
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        '.shadow-2px': {
+          '-webkit-box-shadow': '0px 2px 0px 0px #000000',
+          'box-shadow': '0px 2px 0px 0px #000000',
+        }
+      })
+    }),
+  ],
 }

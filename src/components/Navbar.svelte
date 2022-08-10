@@ -1,5 +1,5 @@
 <template>
-	<div class="h-[70px] flex items-center gap-10 ml-10 mr-10">
+	<div class="h-[70px] flex items-center gap-10 pl-10 pr-10 shadow-2px">
 		<div>
 			<svg
 				role="img"
