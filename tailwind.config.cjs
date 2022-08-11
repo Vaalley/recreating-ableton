@@ -11,7 +11,9 @@ module.exports = {
 			ableblue: '#b1c5ff',
 			ablepurple: '#d5b3ff',
 			ablegreen: '#b6ffc0',
-			abledarkblue: '#0000ff'
+			abledarkblue: '#0000ff',
+			black: '#000',
+			white: '#fff',
 		},
 		screens: {
 			'-2xl': { max: '1439px' },
