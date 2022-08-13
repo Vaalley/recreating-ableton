@@ -13,7 +13,7 @@ module.exports = {
 			ablegreen: '#b6ffc0',
 			abledarkblue: '#0000ff',
 			black: '#000',
-			white: '#fff',
+			white: '#fff'
 		},
 		screens: {
 			'-2xl': { max: '1439px' },
@@ -31,8 +31,8 @@ module.exports = {
 		plugin(function ({ addUtilities }) {
 			addUtilities({
 				'.shadow-2px': {
-					'-webkit-box-shadow': '0px 2px 0px 0px #000000',
-					'box-shadow': '0px 2px 0px 0px #000000'
+					'-webkit-box-shadow': '0px 2px 0px 0px #f0ecec',
+					'box-shadow': '0px 2px 0px 0px #f0ecec'
 				}
 			});
 		})
