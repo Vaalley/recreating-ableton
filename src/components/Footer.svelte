@@ -7,10 +7,10 @@
 			<div class="justify-self-start">
 				<div>
 					<a href="/"><p>Register Live or Push ></p></a>
-					<a href="/"><p>About ></p></a>
-					<a href="/"><p>Ableton Jobs ></p></a>
+					<a href="/"><p class="mt-3">About ></p></a>
+					<a href="/"><p class="mt-3">Ableton Jobs ></p></a>
 				</div>
-				<div class="flex justify-start items-center gap-2">
+				<div class="flex justify-start items-center gap-2 mt-3">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-10 w-10"
@@ -75,19 +75,19 @@
 			<div class="justify-self-start">
 				<div>
 					<p class="font-bold">Education</p>
-					<a href="/"> <p>Offers for students and teachers ></p></a>
-					<a href="/"> <p>Ableton for the Classroom ></p></a>
-					<a href="/"> <p>Ableton for Colleges and Universities ></p></a>
+					<a href="/"> <p class="mt-3">Offers for students and teachers ></p></a>
+					<a href="/"> <p class="mt-3">Ableton for the Classroom ></p></a>
+					<a href="/"> <p class="mt-3">Ableton for Colleges and Universities ></p></a>
 				</div>
 			</div>
 			<div class="justify-self-start">
 				<div>
 					<p class="font-bold">Sign up to our newsletter</p>
-					<p>
+					<p class="mt-3">
 						Enter your email address to stay up to date with the latest offers, tutorials,
 						downloads, surveys and more.
 					</p>
-					<form class="flex">
+					<form class="flex mt-3">
 						<input
 							type="text"
 							placeholder="Email Address"
@@ -100,16 +100,16 @@
 			<div class="justify-self-start mt-20">
 				<div>
 					<p class="font-bold">Community</p>
-					<a href="/"> <p>Find Ableton User Groups ></p></a>
-					<a href="/"> <p>Find Certified Training ></p></a>
-					<a href="/"> <p>Become a Certified Trainer ></p></a>
+					<a href="/"> <p class="mt-3">Find Ableton User Groups ></p></a>
+					<a href="/"> <p class="mt-3">Find Certified Training ></p></a>
+					<a href="/"> <p class="mt-3">Become a Certified Trainer ></p></a>
 				</div>
 			</div>
 			<div class="justify-self-start mt-20">
 				<div>
 					<p class="font-bold">Distributors</p>
-					<a href="/"> <p>Find Distributors ></p></a>
-					<a href="/"> <p>Try Push in-store ></p></a>
+					<a href="/"> <p class="mt-3">Find Distributors ></p></a>
+					<a href="/"> <p class="mt-3">Try Push in-store ></p></a>
 				</div>
 			</div>
 			<div class="justify-self-start mt-20">
