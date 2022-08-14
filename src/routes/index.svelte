@@ -9,6 +9,7 @@
 	import HeaderImages2 from '../components/HeaderImages2.svelte';
 	import HeaderImages3 from '../components/HeaderImages3.svelte';
 	import HeaderLastComponent from '../components/HeaderLastComponent.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -53,6 +54,7 @@
 			paragraph="If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities."
 		/>
 		<HeaderLastComponent />
+		<Footer />
 	</div>
 </template>
 
