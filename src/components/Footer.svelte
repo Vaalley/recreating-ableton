@@ -115,6 +115,32 @@
 			<div class="justify-self-start mt-20">
 				<div>
 					<p class="font-bold">Language and Location</p>
+					<div class="flex gap-1 mt-3">
+						<select
+							id="country"
+							name="country"
+							class="form-control select select-sm py-2 px-2 w-2/3 h-fit text-sm bg-[#eeeeee] rounded-none"
+							default="English"
+						>
+							<option value="Andorra">Andorra</option>
+							<option value="Angola">Angola</option>
+							<option value="Yemen">Yemen</option>
+							<option value="Zambia">Zambia</option>
+							<option value="Zimbabwe">Zimbabwe</option>
+						</select>
+						<select
+							id="location"
+							name="location"
+							class="form-control select select-sm py-2 px-2 w-2/3 h-fit text-sm bg-[#eeeeee] rounded-none"
+							default="English"
+						>
+							<option value="Andorra">Andorra</option>
+							<option value="Angola">Angola</option>
+							<option value="Yemen">Yemen</option>
+							<option value="Zambia">Zambia</option>
+							<option value="Zimbabwe">Zimbabwe</option>
+						</select>
+					</div>
 				</div>
 			</div>
 		</div>
